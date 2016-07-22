@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7106BAD1D3CE5AA00A84DE0 /* HorizonTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F7106BAC1D3CE5AA00A84DE0 /* HorizonTableViewSection.m */; };
+		F7106BB01D3DC35800A84DE0 /* HorizonTableViewSectionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7106BAF1D3DC35800A84DE0 /* HorizonTableViewSectionLabel.m */; };
+		F72B0F1F1D38BCE3007B6CCB /* HorizonTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B0F1E1D38BCE3007B6CCB /* HorizonTableView.m */; };
+		F72B0F221D38CF37007B6CCB /* HorizonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F72B0F211D38CF37007B6CCB /* HorizonTableViewCell.m */; };
 		F76859AB1D110C3D00EFBD89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76859AA1D110C3D00EFBD89 /* main.m */; };
 		F76859AE1D110C3D00EFBD89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76859AD1D110C3D00EFBD89 /* AppDelegate.m */; };
 		F76859B11D110C3D00EFBD89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76859B01D110C3D00EFBD89 /* ViewController.m */; };
-		F76859B41D110C3D00EFBD89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76859B21D110C3D00EFBD89 /* Main.storyboard */; };
 		F76859B61D110C3D00EFBD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76859B51D110C3D00EFBD89 /* Assets.xcassets */; };
 		F76859B91D110C3D00EFBD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76859B71D110C3D00EFBD89 /* LaunchScreen.storyboard */; };
 		F76859C41D110C3D00EFBD89 /* TestApplicationDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76859C31D110C3D00EFBD89 /* TestApplicationDelegateTests.m */; };
@@ -35,13 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7106BAB1D3CE5AA00A84DE0 /* HorizonTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonTableViewSection.h; sourceTree = "<group>"; };
+		F7106BAC1D3CE5AA00A84DE0 /* HorizonTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonTableViewSection.m; sourceTree = "<group>"; };
+		F7106BAE1D3DC35800A84DE0 /* HorizonTableViewSectionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonTableViewSectionLabel.h; sourceTree = "<group>"; };
+		F7106BAF1D3DC35800A84DE0 /* HorizonTableViewSectionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonTableViewSectionLabel.m; sourceTree = "<group>"; };
+		F72B0F1D1D38BCE3007B6CCB /* HorizonTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonTableView.h; sourceTree = "<group>"; };
+		F72B0F1E1D38BCE3007B6CCB /* HorizonTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonTableView.m; sourceTree = "<group>"; };
+		F72B0F201D38CF37007B6CCB /* HorizonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonTableViewCell.h; sourceTree = "<group>"; };
+		F72B0F211D38CF37007B6CCB /* HorizonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonTableViewCell.m; sourceTree = "<group>"; };
 		F76859A61D110C3D00EFBD89 /* TestApplicationDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApplicationDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76859AA1D110C3D00EFBD89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F76859AC1D110C3D00EFBD89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F76859AD1D110C3D00EFBD89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F76859AF1D110C3D00EFBD89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F76859B01D110C3D00EFBD89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F76859B31D110C3D00EFBD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F76859B51D110C3D00EFBD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76859B81D110C3D00EFBD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F76859BA1D110C3D00EFBD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +115,14 @@
 				F76859AD1D110C3D00EFBD89 /* AppDelegate.m */,
 				F76859AF1D110C3D00EFBD89 /* ViewController.h */,
 				F76859B01D110C3D00EFBD89 /* ViewController.m */,
-				F76859B21D110C3D00EFBD89 /* Main.storyboard */,
+				F72B0F1D1D38BCE3007B6CCB /* HorizonTableView.h */,
+				F72B0F1E1D38BCE3007B6CCB /* HorizonTableView.m */,
+				F72B0F201D38CF37007B6CCB /* HorizonTableViewCell.h */,
+				F72B0F211D38CF37007B6CCB /* HorizonTableViewCell.m */,
+				F7106BAB1D3CE5AA00A84DE0 /* HorizonTableViewSection.h */,
+				F7106BAC1D3CE5AA00A84DE0 /* HorizonTableViewSection.m */,
+				F7106BAE1D3DC35800A84DE0 /* HorizonTableViewSectionLabel.h */,
+				F7106BAF1D3DC35800A84DE0 /* HorizonTableViewSectionLabel.m */,
 				F76859B51D110C3D00EFBD89 /* Assets.xcassets */,
 				F76859B71D110C3D00EFBD89 /* LaunchScreen.storyboard */,
 				F76859BA1D110C3D00EFBD89 /* Info.plist */,
@@ -245,7 +262,6 @@
 			files = (
 				F76859B91D110C3D00EFBD89 /* LaunchScreen.storyboard in Resources */,
 				F76859B61D110C3D00EFBD89 /* Assets.xcassets in Resources */,
-				F76859B41D110C3D00EFBD89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F76859B11D110C3D00EFBD89 /* ViewController.m in Sources */,
+				F72B0F221D38CF37007B6CCB /* HorizonTableViewCell.m in Sources */,
+				F7106BB01D3DC35800A84DE0 /* HorizonTableViewSectionLabel.m in Sources */,
 				F76859AE1D110C3D00EFBD89 /* AppDelegate.m in Sources */,
+				F7106BAD1D3CE5AA00A84DE0 /* HorizonTableViewSection.m in Sources */,
+				F72B0F1F1D38BCE3007B6CCB /* HorizonTableView.m in Sources */,
 				F76859AB1D110C3D00EFBD89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F76859B21D110C3D00EFBD89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F76859B31D110C3D00EFBD89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F76859B71D110C3D00EFBD89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestApplicationDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BUPT.TestApplicationDelegate;
@@ -424,6 +441,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestApplicationDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BUPT.TestApplicationDelegate;
@@ -496,6 +518,7 @@
 				F76859D51D110C3E00EFBD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F76859D61D110C3E00EFBD89 /* Build configuration list for PBXNativeTarget "TestApplicationDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +527,7 @@
 				F76859D81D110C3E00EFBD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F76859D91D110C3E00EFBD89 /* Build configuration list for PBXNativeTarget "TestApplicationDelegateUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +536,7 @@
 				F76859DB1D110C3E00EFBD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
